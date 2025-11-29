@@ -1,6 +1,6 @@
 {
     "name": "azur-rp-launcher",
-    "preductName": "AzurRP Launcher",
+    "preductName": "AzurRP-Launcher-Setup",
     "version": "1.0.0",
     "description": "AzurRP modded server launcher",
     "main": "src/app.js",

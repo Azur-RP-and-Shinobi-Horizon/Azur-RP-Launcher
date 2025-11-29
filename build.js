@@ -63,10 +63,10 @@ class Index {
         builder.build({
             config: {
                 generateUpdatesFilesForAllChannels: false,
-                appId: preductname,
+                appId: "Azur RP Launcher",
                 productName: preductname,
                 copyright: 'Copyright © 2025 AzurRP',
-                artifactName: "Azur-RP-Launcher-${os}-${arch}.${ext}",
+                artifactName: "${productName}-${os}-${arch}.${ext}",
                 extraMetadata: { main: 'app/app.js' },
                 files: ["app/**/*", "package.json", "LICENSE.md"],
                 directories: { "output": "dist" },
