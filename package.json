@@ -12,7 +12,6 @@
         "build": "node build.js --obf=true --build=platform",
         "dev": "cross-env-shell DEV_TOOL=open nodemon --ignore AppData/ --ignore node_modules/ --legacy-watch --exec npm start",
         "icon": "node build.js --icon=https://raw.githubusercontent.com/Azur-RP-and-Shinobi-Horizon/Azur-RP-Launcher/main/app/assets/images/LoadingSeal.png"
-
     },
     "license": "CC0",
     "nodemonConfig": {
@@ -27,13 +26,15 @@
         "xml-js": "^1.6.11"
     },
     "devDependencies": {
+        "@electron/rebuild": "^4.0.1",
         "cross-env": "^7.0.3",
         "electron": "^37.2.0",
         "electron-builder": "^26.0.12",
-        "nodemon": "^3.1.9",
-        "png2icons": "^2.0.1",
         "javascript-obfuscator": "^4.1.0",
-        "jimp": "^0.22.12"
+        "jimp": "^0.22.12",
+        "node-abi": "^4.24.0",
+        "nodemon": "^3.1.9",
+        "png2icons": "^2.0.1"
     },
     "repository": {
         "type": "git",
