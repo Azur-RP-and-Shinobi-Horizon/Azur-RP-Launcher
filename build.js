@@ -6,7 +6,7 @@ const nodeFetch = require('node-fetch')
 const png2icons = require('png2icons');
 const Jimp = require('jimp');
 
-const { preductname } = require('./package.json');
+const { preductName } = require('./package.json');
 
 class Index {
     async init() {
@@ -63,10 +63,10 @@ class Index {
         builder.build({
             config: {
                 generateUpdatesFilesForAllChannels: false,
-                appId: "Azur RP Launcher",
-                productName: preductname,
+                appId: preductName,
+                productName: "AzurRP Launcher",
                 copyright: 'Copyright © 2025 AzurRP',
-                artifactName: "${productName}-${os}-${arch}.${ext}",
+                artifactName: "AzurRP-Launcher-setup-${os}-${arch}.${ext}",
                 extraMetadata: { main: 'app/app.js' },
                 files: ["app/**/*", "package.json", "LICENSE.md"],
                 directories: { "output": "dist" },
