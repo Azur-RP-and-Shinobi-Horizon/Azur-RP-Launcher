@@ -1,10 +1,10 @@
 {
     "name": "azur-rp-launcher",
     "preductName": "AzurRP Launcher",
-    "version": "1.0.1",
+    "version": "1.0.0",
     "description": "AzurRP modded server launcher",
     "main": "src/app.js",
-    "author": "AzurRP, Riptiaz/Boulldogo/Vexato/Luuxis",
+    "author": "AzurRP Team/Riptiaz/Boulldogo/Vexato/Luuxis",
     "env": "panel",
     "settings": "https://test.azur-rp.eu",
     "scripts": {
@@ -18,21 +18,21 @@
         "ext": "js,html,css"
     },
     "dependencies": {
+        "@electron/rebuild": "^4.0.1",
         "discord-rpc": "^4.0.1",
         "electron-updater": "^6.6.2",
         "https": "^1.0.0",
         "minecraft-java-core-azbetter": "^4.1.3",
+        "node-abi": "^4.24.0",
         "node-fetch": "^2.6.7",
         "xml-js": "^1.6.11"
     },
     "devDependencies": {
-        "@electron/rebuild": "^4.0.1",
         "cross-env": "^7.0.3",
         "electron": "^37.2.0",
         "electron-builder": "^26.0.12",
         "javascript-obfuscator": "^4.1.0",
         "jimp": "^0.22.12",
-        "node-abi": "^4.24.0",
         "nodemon": "^3.1.9",
         "png2icons": "^2.0.1"
     },

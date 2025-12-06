@@ -63,7 +63,7 @@ class Index {
         builder.build({
             config: {
                 generateUpdatesFilesForAllChannels: false,
-                appId: preductName,
+                appId: "AzurRP Launcher",
                 productName: "AzurRP Launcher",
                 copyright: 'Copyright © 2025 AzurRP',
                 artifactName: "AzurRP-Launcher-setup-${os}-${arch}.${ext}",
